@@ -91,7 +91,7 @@
 	display: block;
 	width: 100%;
 	height: 100%;
-	background-image: url(../image/logo.png);
+	background-image: url(../images/logo.png);
 	background-repeat: no-repeat;
 	background-position: center center;
 	text-indent: -9999em;
@@ -219,7 +219,7 @@
 	display: none;
 }
 .home{
-	height: 1272px;
+	padding-bottom: 40px;
 }
 .header .search .search-keyword-list{
 	z-index: 999;
@@ -372,6 +372,9 @@
 .home .hot .hot-promo .hot-promo-item-img{
 	height: 100%;
 }
+.flash{
+	margin-bottom: 40px;
+}
 .flash .hd .more{
 	margin-top: 24px;
 }
@@ -494,9 +497,38 @@
 .flash .product-item:nth-child(4){
 	border-top: 1px solid red;
 }
+.ad .ad-img{
+	width: 100%;
+	height: 160px;
+}
 .main{
 	height: 2058px;
-	background: gray;
+}
+.main .ctr-btn{
+	width: 20px;
+	height: 20px;
+	-webkit-transition: all .4s;
+    transition: all .4s;
+}
+.main .ctr-btn:hover{
+	color: #ff6700;
+}
+.main .ctr-btn .phone-right{
+	width: 20px;
+    height: 20px;
+    padding: 4px;
+    margin-left: 8px;
+    border-radius: 16px;
+    font-size: 12px;
+    line-height: 12px;
+    background: #b0b0b0;
+    color: #fff;
+    vertical-align: 1px;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+.main .ctr-btn:hover .phone-right{
+	color: #ff6700;
 }
 .footer{
 	height: 277px;
