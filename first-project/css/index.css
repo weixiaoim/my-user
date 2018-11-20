@@ -658,6 +658,7 @@
 	padding: 0;
 }
 .main .elec .product-item-s .iconfont{
+	margin-left: 10px;
 	color: #ff6700;
 	font-size: 48px;
 	font-family: "iconfont" !important;
